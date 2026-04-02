@@ -1,0 +1,915 @@
+[ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Activity,1,14,22]; ]
+import Toybox.Activity;
+[ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 6; @symbol_classdef = [datasin1View,6,6,18]; @symbol_extends<0> = [WatchUi,6,27,34]; @symbol_extends<1> = [DataField,6,35,44]; ]
+class datasin1View extends WatchUi.DataField {
+    [ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 7; @position = 15; @symbol_vardef = [mPower,7,15,21]; @symbol_type<0> = [Numeric,7,25,32]; ]
+    protected
+    var mPower as Numeric;
+    [ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 8; @position = 15; @symbol_vardef = [mSpeed,8,15,21]; @symbol_type<0> = [Numeric,8,25,32]; ]
+    protected
+    var mSpeed as Numeric;
+    [ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 9; @position = 15; @symbol_vardef = [mHeartRate,9,15,25]; @symbol_type<0> = [Numeric,9,29,36]; ]
+    protected
+    var mHeartRate as Numeric;
+    [ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 10; @position = 15; @symbol_vardef = [mLayoutMode,10,15,26]; @symbol_type<0> = [Symbol,10,30,36]; ]
+    protected
+    var mLayoutMode as Symbol;
+    [ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 12; @symbol_functiondef = [initialize,12,13,23]; ]
+    function initialize() as Void {
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_12_26_18_4_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 13 8 ]
+        symbol [ DataField %tmp.2 13 8 17 ];
+        %tmp.2 = getv ? :DataField;
+        symbol [ initialize %tmp.3 13 18 28 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 14 8 ]
+        %tmp.4 = 0;
+        symbol [ mPower ? 14 8 14 ];
+        putv self :mPower %tmp.4;
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 15 8 ]
+        %tmp.5 = 0.0f;
+        symbol [ mSpeed ? 15 8 14 ];
+        putv self :mSpeed %tmp.5;
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 16 8 ]
+        %tmp.6 = 0;
+        symbol [ mHeartRate ? 16 8 18 ];
+        putv self :mHeartRate %tmp.6;
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 17 8 ]
+        %tmp.8 = const :full;
+        symbol [ full %tmp.8 17 23 27 const ];
+        symbol [ mLayoutMode ? 17 8 19 ];
+        putv self :mLayoutMode %tmp.8;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_12_26_18_4_stop:
+    }
+    [ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 21; @symbol_functiondef = [onLayout,21,13,21]; @symbol_param<0> = [dc,21,22,24]; @symbol_param<0>_type<0> = [Dc,21,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_21_40_49_4_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 23 8 ]
+        [ "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_21_40_49_4_start" "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_21_40_49_4_stop" ]
+        %obscurityFlags.1 = local;
+        symbol [ obscurityFlags %obscurityFlags.1 23 12 26 ];
+        symbol [ DataField %tmp.2 23 29 38 ];
+        %tmp.2 = getv ? :DataField;
+        symbol [ getObscurityFlags %tmp.3 23 39 56 ];
+        %tmp.3 = getv function %tmp.2 :getObscurityFlags;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %obscurityFlags.1 %tmp.4;
+        symbol [ obscurityFlags %obscurityFlags.1 23 12 26 ];
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 26 8 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_26_8_48_8_if_stmt:
+        %tmp.5 = lgetv %obscurityFlags.1;
+        symbol [ obscurityFlags %tmp.5 26 12 26 ];
+        %tmp.6 = 0;
+        %tmp.7 = eq %tmp.5 %tmp.6;
+        bf %tmp.7 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_26_8_48_8_if_false;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_26_8_48_8_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_26_33_30_8_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 27 12 ]
+        symbol [ View %tmp.9 27 12 16 ];
+        %tmp.9 = getv ? :View;
+        symbol [ setLayout %tmp.10 27 17 26 ];
+        %tmp.10 = getv function %tmp.9 :setLayout;
+        symbol [ Rez %tmp.12 27 27 30 ];
+        %tmp.12 = getv ? :Rez;
+        symbol [ Layouts %tmp.13 27 31 38 ];
+        %tmp.13 = getv %tmp.12 :Layouts;
+        symbol [ MainLayout %tmp.14 27 39 49 ];
+        %tmp.14 = getv function %tmp.13 :MainLayout;
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 27 50 52 ];
+        %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
+        invoke %tmp.9 %tmp.10(%tmp.16);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 28 12 ]
+        %tmp.18 = const :full;
+        symbol [ full %tmp.18 28 27 31 const ];
+        symbol [ mLayoutMode ? 28 12 23 ];
+        putv self :mLayoutMode %tmp.18;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_26_33_30_8_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_26_8_48_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_26_8_48_8_if_false:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 30 15 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_30_15_48_8_if_stmt:
+        %tmp.19 = lgetv %obscurityFlags.1;
+        symbol [ obscurityFlags %tmp.19 30 19 33 ];
+        symbol [ OBSCURE_TOP %tmp.21 30 38 49 ];
+        %tmp.21 = getv ? :OBSCURE_TOP;
+        symbol [ OBSCURE_LEFT %tmp.23 30 52 64 ];
+        %tmp.23 = getv ? :OBSCURE_LEFT;
+        %tmp.24 = bitor %tmp.21 %tmp.23;
+        %tmp.25 = eq %tmp.19 %tmp.24;
+        bf %tmp.25 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_30_15_48_8_if_false;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_30_15_48_8_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_30_67_35_8_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 31 12 ]
+        symbol [ View %tmp.27 31 12 16 ];
+        %tmp.27 = getv ? :View;
+        symbol [ setLayout %tmp.28 31 17 26 ];
+        %tmp.28 = getv function %tmp.27 :setLayout;
+        symbol [ Rez %tmp.30 31 27 30 ];
+        %tmp.30 = getv ? :Rez;
+        symbol [ Layouts %tmp.31 31 31 38 ];
+        %tmp.31 = getv %tmp.30 :Layouts;
+        symbol [ TopLeftLayout %tmp.32 31 39 52 ];
+        %tmp.32 = getv function %tmp.31 :TopLeftLayout;
+        %tmp.33 = lgetv %dc;
+        symbol [ dc %tmp.33 31 53 55 ];
+        %tmp.34 = invoke %tmp.31 %tmp.32(%tmp.33);
+        invoke %tmp.27 %tmp.28(%tmp.34);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 32 12 ]
+        symbol [ View %tmp.36 32 13 17 ];
+        %tmp.36 = getv ? :View;
+        symbol [ findDrawableById %tmp.37 32 18 34 ];
+        %tmp.37 = getv function %tmp.36 :findDrawableById;
+        %tmp.38 = "label";
+        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
+        %tmp.40 = as %tmp.39 Text;
+        symbol [ Text %tmp.40 32 47 51 ];
+        symbol [ setText %tmp.41 32 53 60 ];
+        %tmp.41 = getv function %tmp.40 :setText;
+        %tmp.42 = "PWR";
+        invoke %tmp.40 %tmp.41(%tmp.42);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 33 12 ]
+        %tmp.44 = const :power;
+        symbol [ power %tmp.44 33 27 32 const ];
+        symbol [ mLayoutMode ? 33 12 23 ];
+        putv self :mLayoutMode %tmp.44;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_30_67_35_8_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_30_15_48_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_30_15_48_8_if_false:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 35 15 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_35_15_48_8_if_stmt:
+        %tmp.45 = lgetv %obscurityFlags.1;
+        symbol [ obscurityFlags %tmp.45 35 19 33 ];
+        symbol [ OBSCURE_TOP %tmp.47 35 38 49 ];
+        %tmp.47 = getv ? :OBSCURE_TOP;
+        symbol [ OBSCURE_RIGHT %tmp.49 35 52 65 ];
+        %tmp.49 = getv ? :OBSCURE_RIGHT;
+        %tmp.50 = bitor %tmp.47 %tmp.49;
+        %tmp.51 = eq %tmp.45 %tmp.50;
+        bf %tmp.51 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_35_15_48_8_if_false;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_35_15_48_8_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_35_68_40_8_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 36 12 ]
+        symbol [ View %tmp.53 36 12 16 ];
+        %tmp.53 = getv ? :View;
+        symbol [ setLayout %tmp.54 36 17 26 ];
+        %tmp.54 = getv function %tmp.53 :setLayout;
+        symbol [ Rez %tmp.56 36 27 30 ];
+        %tmp.56 = getv ? :Rez;
+        symbol [ Layouts %tmp.57 36 31 38 ];
+        %tmp.57 = getv %tmp.56 :Layouts;
+        symbol [ TopRightLayout %tmp.58 36 39 53 ];
+        %tmp.58 = getv function %tmp.57 :TopRightLayout;
+        %tmp.59 = lgetv %dc;
+        symbol [ dc %tmp.59 36 54 56 ];
+        %tmp.60 = invoke %tmp.57 %tmp.58(%tmp.59);
+        invoke %tmp.53 %tmp.54(%tmp.60);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 37 12 ]
+        symbol [ View %tmp.62 37 13 17 ];
+        %tmp.62 = getv ? :View;
+        symbol [ findDrawableById %tmp.63 37 18 34 ];
+        %tmp.63 = getv function %tmp.62 :findDrawableById;
+        %tmp.64 = "label";
+        %tmp.65 = invoke %tmp.62 %tmp.63(%tmp.64);
+        %tmp.66 = as %tmp.65 Text;
+        symbol [ Text %tmp.66 37 47 51 ];
+        symbol [ setText %tmp.67 37 53 60 ];
+        %tmp.67 = getv function %tmp.66 :setText;
+        %tmp.68 = "SPD";
+        invoke %tmp.66 %tmp.67(%tmp.68);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 38 12 ]
+        %tmp.70 = const :speed;
+        symbol [ speed %tmp.70 38 27 32 const ];
+        symbol [ mLayoutMode ? 38 12 23 ];
+        putv self :mLayoutMode %tmp.70;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_35_68_40_8_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_35_15_48_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_35_15_48_8_if_false:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 40 15 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_40_15_48_8_if_stmt:
+        %tmp.71 = lgetv %obscurityFlags.1;
+        symbol [ obscurityFlags %tmp.71 40 19 33 ];
+        symbol [ OBSCURE_BOTTOM %tmp.73 40 38 52 ];
+        %tmp.73 = getv ? :OBSCURE_BOTTOM;
+        symbol [ OBSCURE_LEFT %tmp.75 40 55 67 ];
+        %tmp.75 = getv ? :OBSCURE_LEFT;
+        %tmp.76 = bitor %tmp.73 %tmp.75;
+        %tmp.77 = eq %tmp.71 %tmp.76;
+        bf %tmp.77 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_40_15_48_8_if_false;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_40_15_48_8_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_40_70_45_8_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 41 12 ]
+        symbol [ View %tmp.79 41 12 16 ];
+        %tmp.79 = getv ? :View;
+        symbol [ setLayout %tmp.80 41 17 26 ];
+        %tmp.80 = getv function %tmp.79 :setLayout;
+        symbol [ Rez %tmp.82 41 27 30 ];
+        %tmp.82 = getv ? :Rez;
+        symbol [ Layouts %tmp.83 41 31 38 ];
+        %tmp.83 = getv %tmp.82 :Layouts;
+        symbol [ BottomLeftLayout %tmp.84 41 39 55 ];
+        %tmp.84 = getv function %tmp.83 :BottomLeftLayout;
+        %tmp.85 = lgetv %dc;
+        symbol [ dc %tmp.85 41 56 58 ];
+        %tmp.86 = invoke %tmp.83 %tmp.84(%tmp.85);
+        invoke %tmp.79 %tmp.80(%tmp.86);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 42 12 ]
+        symbol [ View %tmp.88 42 13 17 ];
+        %tmp.88 = getv ? :View;
+        symbol [ findDrawableById %tmp.89 42 18 34 ];
+        %tmp.89 = getv function %tmp.88 :findDrawableById;
+        %tmp.90 = "label";
+        %tmp.91 = invoke %tmp.88 %tmp.89(%tmp.90);
+        %tmp.92 = as %tmp.91 Text;
+        symbol [ Text %tmp.92 42 47 51 ];
+        symbol [ setText %tmp.93 42 53 60 ];
+        %tmp.93 = getv function %tmp.92 :setText;
+        %tmp.94 = "HR";
+        invoke %tmp.92 %tmp.93(%tmp.94);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 43 12 ]
+        %tmp.96 = const :heartRate;
+        symbol [ heartRate %tmp.96 43 27 36 const ];
+        symbol [ mLayoutMode ? 43 12 23 ];
+        putv self :mLayoutMode %tmp.96;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_40_70_45_8_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_40_15_48_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_40_15_48_8_if_false:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 45 15 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_45_15_48_8_if_stmt:
+        %tmp.97 = lgetv %obscurityFlags.1;
+        symbol [ obscurityFlags %tmp.97 45 19 33 ];
+        symbol [ OBSCURE_BOTTOM %tmp.99 45 38 52 ];
+        %tmp.99 = getv ? :OBSCURE_BOTTOM;
+        symbol [ OBSCURE_RIGHT %tmp.101 45 55 68 ];
+        %tmp.101 = getv ? :OBSCURE_RIGHT;
+        %tmp.102 = bitor %tmp.99 %tmp.101;
+        %tmp.103 = eq %tmp.97 %tmp.102;
+        bf %tmp.103 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_45_15_48_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_45_15_48_8_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_45_71_48_8_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 46 12 ]
+        symbol [ View %tmp.105 46 12 16 ];
+        %tmp.105 = getv ? :View;
+        symbol [ setLayout %tmp.106 46 17 26 ];
+        %tmp.106 = getv function %tmp.105 :setLayout;
+        symbol [ Rez %tmp.108 46 27 30 ];
+        %tmp.108 = getv ? :Rez;
+        symbol [ Layouts %tmp.109 46 31 38 ];
+        %tmp.109 = getv %tmp.108 :Layouts;
+        symbol [ BottomRightLayout %tmp.110 46 39 56 ];
+        %tmp.110 = getv function %tmp.109 :BottomRightLayout;
+        %tmp.111 = lgetv %dc;
+        symbol [ dc %tmp.111 46 57 59 ];
+        %tmp.112 = invoke %tmp.109 %tmp.110(%tmp.111);
+        invoke %tmp.105 %tmp.106(%tmp.112);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 47 12 ]
+        %tmp.114 = const :compact;
+        symbol [ compact %tmp.114 47 27 34 const ];
+        symbol [ mLayoutMode ? 47 12 23 ];
+        putv self :mLayoutMode %tmp.114;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_45_71_48_8_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_45_15_48_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_45_15_48_8_if_end:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_40_15_48_8_if_end:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_35_15_48_8_if_end:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_30_15_48_8_if_end:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_26_8_48_8_if_end:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_21_40_49_4_stop:
+    }
+    [ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 51; @symbol_functiondef = [compute,51,13,20]; @symbol_param<0> = [info,51,21,25]; @symbol_param<0>_type<0> = [Activity,51,29,37]; @symbol_param<0>_type<1> = [Info,51,38,42]; ]
+    function compute(info as Activity.Info) as Void {
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_51_52_73_4_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 53 8 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_53_8_56_8_if_stmt:
+        %tmp.1 = lgetv %info;
+        symbol [ info %tmp.1 53 12 16 ];
+        %tmp.3 = const :currentPower;
+        symbol [ currentPower %tmp.3 53 22 34 const ];
+        %tmp.4 = canhazplz %tmp.1 %tmp.3;
+        bf %tmp.4 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_53_8_56_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_53_8_56_8_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_53_36_56_8_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 54 12 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_55_16_55_74_begin:
+        %tmp.5 = lgetv %info;
+        symbol [ info %tmp.5 55 16 20 ];
+        %tmp.6 = as %tmp.5 { (interface { var currentPower; }) };
+        symbol [ currentPower %tmp.7 55 21 33 ];
+        %tmp.7 = getv %tmp.6 :currentPower;
+        %tmp.8 = null;
+        %tmp.9 = ne %tmp.7 %tmp.8;
+        bf %tmp.9 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_55_16_55_74_else_false;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_55_16_55_74_true:
+        %tmp.10 = lgetv %info;
+        symbol [ info %tmp.10 55 44 48 ];
+        %tmp.11 = as %tmp.10 { (interface { var currentPower; }) };
+        symbol [ currentPower %tmp.12 55 49 61 ];
+        %tmp.12 = getv %tmp.11 :currentPower;
+        %tmp.13 = as %tmp.12 Number;
+        symbol [ Number %tmp.13 55 65 71 ];
+        push %tmp.13;
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_55_16_55_74_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_55_16_55_74_else_false:
+        %tmp.14 = 0;
+        push %tmp.14;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_55_16_55_74_end:
+        %tmp.15 = phi [%tmp.9 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_55_16_55_74_begin] [%tmp.13 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_55_16_55_74_true] [%tmp.14 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_55_16_55_74_else_false] [%tmp.15 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_55_16_55_74_end];
+        symbol [ mPower ? 54 12 18 ];
+        putv self :mPower %tmp.15;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_53_36_56_8_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_53_8_56_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_53_8_56_8_if_end:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 59 8 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_59_8_64_8_if_stmt:
+        %tmp.16 = lgetv %info;
+        symbol [ info %tmp.16 59 12 16 ];
+        %tmp.18 = const :currentSpeed;
+        symbol [ currentSpeed %tmp.18 59 22 34 const ];
+        %tmp.19 = canhazplz %tmp.16 %tmp.18;
+        bf %tmp.19 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_59_8_64_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_59_8_64_8_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_59_36_64_8_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 60 12 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_61_16_63_22_begin:
+        %tmp.20 = lgetv %info;
+        symbol [ info %tmp.20 61 16 20 ];
+        %tmp.21 = as %tmp.20 { (interface { var currentSpeed; }) };
+        symbol [ currentSpeed %tmp.22 61 21 33 ];
+        %tmp.22 = getv %tmp.21 :currentSpeed;
+        %tmp.23 = null;
+        %tmp.24 = ne %tmp.22 %tmp.23;
+        bf %tmp.24 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_61_16_63_22_else_false;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_61_16_63_22_true:
+        %tmp.25 = lgetv %info;
+        symbol [ info %tmp.25 62 23 27 ];
+        %tmp.26 = as %tmp.25 { (interface { var currentSpeed; }) };
+        symbol [ currentSpeed %tmp.27 62 28 40 ];
+        %tmp.27 = getv %tmp.26 :currentSpeed;
+        %tmp.28 = as %tmp.27 Float;
+        symbol [ Float %tmp.28 62 44 49 ];
+        %tmp.29 = 3.6;
+        %tmp.30 = mul %tmp.28 %tmp.29;
+        push %tmp.30;
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_61_16_63_22_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_61_16_63_22_else_false:
+        %tmp.31 = 0.0f;
+        push %tmp.31;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_61_16_63_22_end:
+        %tmp.32 = phi [%tmp.24 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_61_16_63_22_begin] [%tmp.30 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_61_16_63_22_true] [%tmp.31 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_61_16_63_22_else_false] [%tmp.32 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_61_16_63_22_end];
+        symbol [ mSpeed ? 60 12 18 ];
+        putv self :mSpeed %tmp.32;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_59_36_64_8_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_59_8_64_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_59_8_64_8_if_end:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 67 8 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_67_8_72_8_if_stmt:
+        %tmp.33 = lgetv %info;
+        symbol [ info %tmp.33 67 12 16 ];
+        %tmp.35 = const :currentHeartRate;
+        symbol [ currentHeartRate %tmp.35 67 22 38 const ];
+        %tmp.36 = canhazplz %tmp.33 %tmp.35;
+        bf %tmp.36 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_67_8_72_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_67_8_72_8_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_67_40_72_8_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 68 12 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_69_16_71_22_begin:
+        %tmp.37 = lgetv %info;
+        symbol [ info %tmp.37 69 16 20 ];
+        %tmp.38 = as %tmp.37 { (interface { var currentHeartRate; }) };
+        symbol [ currentHeartRate %tmp.39 69 21 37 ];
+        %tmp.39 = getv %tmp.38 :currentHeartRate;
+        %tmp.40 = null;
+        %tmp.41 = ne %tmp.39 %tmp.40;
+        bf %tmp.41 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_69_16_71_22_else_false;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_69_16_71_22_true:
+        %tmp.42 = lgetv %info;
+        symbol [ info %tmp.42 70 22 26 ];
+        %tmp.43 = as %tmp.42 { (interface { var currentHeartRate; }) };
+        symbol [ currentHeartRate %tmp.44 70 27 43 ];
+        %tmp.44 = getv %tmp.43 :currentHeartRate;
+        %tmp.45 = as %tmp.44 Number;
+        symbol [ Number %tmp.45 70 47 53 ];
+        push %tmp.45;
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_69_16_71_22_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_69_16_71_22_else_false:
+        %tmp.46 = 0;
+        push %tmp.46;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_69_16_71_22_end:
+        %tmp.47 = phi [%tmp.41 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_69_16_71_22_begin] [%tmp.45 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_69_16_71_22_true] [%tmp.46 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_69_16_71_22_else_false] [%tmp.47 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_69_16_71_22_end];
+        symbol [ mHeartRate ? 68 12 22 ];
+        putv self :mHeartRate %tmp.47;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_67_40_72_8_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_67_8_72_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_67_8_72_8_if_end:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_51_52_73_4_stop:
+    }
+    [ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 75; @symbol_functiondef = [onUpdate,75,13,21]; @symbol_param<0> = [dc,75,22,24]; @symbol_param<0>_type<0> = [Dc,75,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_75_40_136_4_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 76 8 ]
+        [ "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_75_40_136_4_start" "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_75_40_136_4_stop" ]
+        %bgColor.1 = local;
+        symbol [ bgColor %bgColor.1 76 12 19 ];
+        %tmp.1 = self;
+        symbol [ getBackgroundColor %tmp.2 76 22 40 ];
+        %tmp.2 = getv function %tmp.1 :getBackgroundColor;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %bgColor.1 %tmp.3;
+        symbol [ bgColor %bgColor.1 76 12 19 ];
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 77 8 ]
+        symbol [ View %tmp.5 77 9 13 ];
+        %tmp.5 = getv ? :View;
+        symbol [ findDrawableById %tmp.6 77 14 30 ];
+        %tmp.6 = getv function %tmp.5 :findDrawableById;
+        %tmp.7 = "Background";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        %tmp.9 = as %tmp.8 Text;
+        symbol [ Text %tmp.9 77 48 52 ];
+        symbol [ setColor %tmp.10 77 54 62 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        %tmp.11 = lgetv %bgColor.1;
+        symbol [ bgColor %tmp.11 77 63 70 ];
+        invoke %tmp.9 %tmp.10(%tmp.11);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 79 8 ]
+        [ "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_75_40_136_4_start" "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_75_40_136_4_stop" ]
+        %textColor.2 = local;
+        symbol [ textColor %textColor.2 79 12 21 ];
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_80_12_82_27_begin:
+        %tmp.12 = lgetv %bgColor.1;
+        symbol [ bgColor %tmp.12 80 12 19 ];
+        symbol [ Graphics %tmp.13 80 23 31 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.14 80 32 43 ];
+        %tmp.14 = getv %tmp.13 :COLOR_BLACK;
+        %tmp.15 = eq %tmp.12 %tmp.14;
+        bf %tmp.15 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_80_12_82_27_else_false;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_80_12_82_27_true:
+        symbol [ Graphics %tmp.16 81 18 26 ];
+        %tmp.16 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.17 81 27 38 ];
+        %tmp.17 = getv %tmp.16 :COLOR_WHITE;
+        push %tmp.17;
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_80_12_82_27_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_80_12_82_27_else_false:
+        symbol [ Graphics %tmp.18 82 18 26 ];
+        %tmp.18 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.19 82 27 38 ];
+        %tmp.19 = getv %tmp.18 :COLOR_BLACK;
+        push %tmp.19;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_80_12_82_27_end:
+        %tmp.20 = phi [%tmp.15 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_80_12_82_27_begin] [%tmp.17 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_80_12_82_27_true] [%tmp.19 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_80_12_82_27_else_false] [%tmp.20 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_80_12_82_27_end];
+        lputv %textColor.2 %tmp.20;
+        symbol [ textColor %textColor.2 79 12 21 ];
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 85 8 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_8_114_8_if_stmt:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_12_85_52_begin:
+        symbol [ mLayoutMode %tmp.22 85 12 23 ];
+        %tmp.22 = getv ? :mLayoutMode;
+        %tmp.24 = const :full;
+        symbol [ full %tmp.24 85 28 32 const ];
+        %tmp.25 = eq %tmp.22 %tmp.24;
+        bt %tmp.25 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_8_114_8_if_true;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_36_85_52_false:
+        symbol [ mLayoutMode %tmp.27 85 36 47 ];
+        %tmp.27 = getv ? :mLayoutMode;
+        %tmp.29 = const :compact;
+        symbol [ compact %tmp.29 85 52 59 const ];
+        %tmp.30 = eq %tmp.27 %tmp.29;
+        push %tmp.30;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_36_85_52_end:
+        %tmp.31 = phi [%tmp.25 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_12_85_52_begin] [%tmp.30 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_36_85_52_false] [%tmp.31 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_36_85_52_end];
+        bf %tmp.31 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_8_114_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_8_114_8_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 86 12 ]
+        [ "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_start" "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_stop" ]
+        %labelHr.3 = local;
+        symbol [ labelHr %labelHr.3 86 16 23 ];
+        symbol [ View %tmp.33 86 26 30 ];
+        %tmp.33 = getv ? :View;
+        symbol [ findDrawableById %tmp.34 86 31 47 ];
+        %tmp.34 = getv function %tmp.33 :findDrawableById;
+        %tmp.35 = "labelHr";
+        %tmp.36 = invoke %tmp.33 %tmp.34(%tmp.35);
+        %tmp.37 = as %tmp.36 Text or Null;
+        symbol [ Text %tmp.37 86 62 66 ];
+        lputv %labelHr.3 %tmp.37;
+        symbol [ labelHr %labelHr.3 86 16 23 ];
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 87 12 ]
+        [ "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_start" "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_stop" ]
+        %valueHr.4 = local;
+        symbol [ valueHr %valueHr.4 87 16 23 ];
+        symbol [ View %tmp.39 87 26 30 ];
+        %tmp.39 = getv ? :View;
+        symbol [ findDrawableById %tmp.40 87 31 47 ];
+        %tmp.40 = getv function %tmp.39 :findDrawableById;
+        %tmp.41 = "valueHr";
+        %tmp.42 = invoke %tmp.39 %tmp.40(%tmp.41);
+        %tmp.43 = as %tmp.42 Text or Null;
+        symbol [ Text %tmp.43 87 62 66 ];
+        lputv %valueHr.4 %tmp.43;
+        symbol [ valueHr %valueHr.4 87 16 23 ];
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 88 12 ]
+        [ "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_start" "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_stop" ]
+        %labelSpd.5 = local;
+        symbol [ labelSpd %labelSpd.5 88 16 24 ];
+        symbol [ View %tmp.45 88 27 31 ];
+        %tmp.45 = getv ? :View;
+        symbol [ findDrawableById %tmp.46 88 32 48 ];
+        %tmp.46 = getv function %tmp.45 :findDrawableById;
+        %tmp.47 = "labelSpd";
+        %tmp.48 = invoke %tmp.45 %tmp.46(%tmp.47);
+        %tmp.49 = as %tmp.48 Text or Null;
+        symbol [ Text %tmp.49 88 64 68 ];
+        lputv %labelSpd.5 %tmp.49;
+        symbol [ labelSpd %labelSpd.5 88 16 24 ];
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 89 12 ]
+        [ "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_start" "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_stop" ]
+        %valueSpd.6 = local;
+        symbol [ valueSpd %valueSpd.6 89 16 24 ];
+        symbol [ View %tmp.51 89 27 31 ];
+        %tmp.51 = getv ? :View;
+        symbol [ findDrawableById %tmp.52 89 32 48 ];
+        %tmp.52 = getv function %tmp.51 :findDrawableById;
+        %tmp.53 = "valueSpd";
+        %tmp.54 = invoke %tmp.51 %tmp.52(%tmp.53);
+        %tmp.55 = as %tmp.54 Text or Null;
+        symbol [ Text %tmp.55 89 64 68 ];
+        lputv %valueSpd.6 %tmp.55;
+        symbol [ valueSpd %valueSpd.6 89 16 24 ];
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 90 12 ]
+        [ "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_start" "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_stop" ]
+        %labelPwr.7 = local;
+        symbol [ labelPwr %labelPwr.7 90 16 24 ];
+        symbol [ View %tmp.57 90 27 31 ];
+        %tmp.57 = getv ? :View;
+        symbol [ findDrawableById %tmp.58 90 32 48 ];
+        %tmp.58 = getv function %tmp.57 :findDrawableById;
+        %tmp.59 = "labelPwr";
+        %tmp.60 = invoke %tmp.57 %tmp.58(%tmp.59);
+        %tmp.61 = as %tmp.60 Text or Null;
+        symbol [ Text %tmp.61 90 64 68 ];
+        lputv %labelPwr.7 %tmp.61;
+        symbol [ labelPwr %labelPwr.7 90 16 24 ];
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 91 12 ]
+        [ "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_start" "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_stop" ]
+        %valuePwr.8 = local;
+        symbol [ valuePwr %valuePwr.8 91 16 24 ];
+        symbol [ View %tmp.63 91 27 31 ];
+        %tmp.63 = getv ? :View;
+        symbol [ findDrawableById %tmp.64 91 32 48 ];
+        %tmp.64 = getv function %tmp.63 :findDrawableById;
+        %tmp.65 = "valuePwr";
+        %tmp.66 = invoke %tmp.63 %tmp.64(%tmp.65);
+        %tmp.67 = as %tmp.66 Text or Null;
+        symbol [ Text %tmp.67 91 64 68 ];
+        lputv %valuePwr.8 %tmp.67;
+        symbol [ valuePwr %valuePwr.8 91 16 24 ];
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 93 12 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_93_12_95_12_if_stmt:
+        %tmp.68 = lgetv %labelHr.3;
+        symbol [ labelHr %tmp.68 93 16 23 ];
+        %tmp.69 = null;
+        %tmp.70 = ne %tmp.68 %tmp.69;
+        bf %tmp.70 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_93_12_95_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_93_12_95_12_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_93_33_95_12_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 94 16 ]
+        %tmp.71 = lgetv %labelHr.3;
+        symbol [ labelHr %tmp.71 94 16 23 ];
+        %tmp.72 = as %tmp.71 { (!Null) };
+        symbol [ setColor %tmp.73 94 24 32 ];
+        %tmp.73 = getv function %tmp.72 :setColor;
+        symbol [ Graphics %tmp.74 94 33 41 ];
+        %tmp.74 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.75 94 42 55 ];
+        %tmp.75 = getv %tmp.74 :COLOR_LT_GRAY;
+        invoke %tmp.72 %tmp.73(%tmp.75);
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_93_33_95_12_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_93_12_95_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_93_12_95_12_if_end:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 96 12 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_96_12_99_12_if_stmt:
+        %tmp.76 = lgetv %valueHr.4;
+        symbol [ valueHr %tmp.76 96 16 23 ];
+        %tmp.77 = null;
+        %tmp.78 = ne %tmp.76 %tmp.77;
+        bf %tmp.78 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_96_12_99_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_96_12_99_12_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_96_33_99_12_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 97 16 ]
+        %tmp.79 = lgetv %valueHr.4;
+        symbol [ valueHr %tmp.79 97 16 23 ];
+        %tmp.80 = as %tmp.79 { (!Null) };
+        symbol [ setColor %tmp.81 97 24 32 ];
+        %tmp.81 = getv function %tmp.80 :setColor;
+        %tmp.82 = lgetv %textColor.2;
+        symbol [ textColor %tmp.82 97 33 42 ];
+        invoke %tmp.80 %tmp.81(%tmp.82);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 98 16 ]
+        %tmp.83 = lgetv %valueHr.4;
+        symbol [ valueHr %tmp.83 98 16 23 ];
+        %tmp.84 = as %tmp.83 { (!Null) };
+        symbol [ setText %tmp.85 98 24 31 ];
+        %tmp.85 = getv function %tmp.84 :setText;
+        symbol [ mHeartRate %tmp.87 98 32 42 ];
+        %tmp.87 = getv ? :mHeartRate;
+        symbol [ toString %tmp.88 98 43 51 ];
+        %tmp.88 = getv function %tmp.87 :toString;
+        %tmp.89 = invoke %tmp.87 %tmp.88();
+        invoke %tmp.84 %tmp.85(%tmp.89);
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_96_33_99_12_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_96_12_99_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_96_12_99_12_if_end:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 100 12 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_100_12_102_12_if_stmt:
+        %tmp.90 = lgetv %labelSpd.5;
+        symbol [ labelSpd %tmp.90 100 16 24 ];
+        %tmp.91 = null;
+        %tmp.92 = ne %tmp.90 %tmp.91;
+        bf %tmp.92 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_100_12_102_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_100_12_102_12_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_100_34_102_12_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 101 16 ]
+        %tmp.93 = lgetv %labelSpd.5;
+        symbol [ labelSpd %tmp.93 101 16 24 ];
+        %tmp.94 = as %tmp.93 { (!Null) };
+        symbol [ setColor %tmp.95 101 25 33 ];
+        %tmp.95 = getv function %tmp.94 :setColor;
+        symbol [ Graphics %tmp.96 101 34 42 ];
+        %tmp.96 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.97 101 43 56 ];
+        %tmp.97 = getv %tmp.96 :COLOR_LT_GRAY;
+        invoke %tmp.94 %tmp.95(%tmp.97);
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_100_34_102_12_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_100_12_102_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_100_12_102_12_if_end:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 103 12 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_103_12_106_12_if_stmt:
+        %tmp.98 = lgetv %valueSpd.6;
+        symbol [ valueSpd %tmp.98 103 16 24 ];
+        %tmp.99 = null;
+        %tmp.100 = ne %tmp.98 %tmp.99;
+        bf %tmp.100 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_103_12_106_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_103_12_106_12_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_103_34_106_12_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 104 16 ]
+        %tmp.101 = lgetv %valueSpd.6;
+        symbol [ valueSpd %tmp.101 104 16 24 ];
+        %tmp.102 = as %tmp.101 { (!Null) };
+        symbol [ setColor %tmp.103 104 25 33 ];
+        %tmp.103 = getv function %tmp.102 :setColor;
+        %tmp.104 = lgetv %textColor.2;
+        symbol [ textColor %tmp.104 104 34 43 ];
+        invoke %tmp.102 %tmp.103(%tmp.104);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 105 16 ]
+        %tmp.105 = lgetv %valueSpd.6;
+        symbol [ valueSpd %tmp.105 105 16 24 ];
+        %tmp.106 = as %tmp.105 { (!Null) };
+        symbol [ setText %tmp.107 105 25 32 ];
+        %tmp.107 = getv function %tmp.106 :setText;
+        symbol [ mSpeed %tmp.109 105 33 39 ];
+        %tmp.109 = getv ? :mSpeed;
+        symbol [ format %tmp.110 105 40 46 ];
+        %tmp.110 = getv function %tmp.109 :format;
+        %tmp.111 = "%.1f";
+        %tmp.112 = invoke %tmp.109 %tmp.110(%tmp.111);
+        invoke %tmp.106 %tmp.107(%tmp.112);
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_103_34_106_12_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_103_12_106_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_103_12_106_12_if_end:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 107 12 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_107_12_109_12_if_stmt:
+        %tmp.113 = lgetv %labelPwr.7;
+        symbol [ labelPwr %tmp.113 107 16 24 ];
+        %tmp.114 = null;
+        %tmp.115 = ne %tmp.113 %tmp.114;
+        bf %tmp.115 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_107_12_109_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_107_12_109_12_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_107_34_109_12_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 108 16 ]
+        %tmp.116 = lgetv %labelPwr.7;
+        symbol [ labelPwr %tmp.116 108 16 24 ];
+        %tmp.117 = as %tmp.116 { (!Null) };
+        symbol [ setColor %tmp.118 108 25 33 ];
+        %tmp.118 = getv function %tmp.117 :setColor;
+        symbol [ Graphics %tmp.119 108 34 42 ];
+        %tmp.119 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.120 108 43 56 ];
+        %tmp.120 = getv %tmp.119 :COLOR_LT_GRAY;
+        invoke %tmp.117 %tmp.118(%tmp.120);
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_107_34_109_12_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_107_12_109_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_107_12_109_12_if_end:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 110 12 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_110_12_113_12_if_stmt:
+        %tmp.121 = lgetv %valuePwr.8;
+        symbol [ valuePwr %tmp.121 110 16 24 ];
+        %tmp.122 = null;
+        %tmp.123 = ne %tmp.121 %tmp.122;
+        bf %tmp.123 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_110_12_113_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_110_12_113_12_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_110_34_113_12_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 111 16 ]
+        %tmp.124 = lgetv %valuePwr.8;
+        symbol [ valuePwr %tmp.124 111 16 24 ];
+        %tmp.125 = as %tmp.124 { (!Null) };
+        symbol [ setColor %tmp.126 111 25 33 ];
+        %tmp.126 = getv function %tmp.125 :setColor;
+        %tmp.127 = lgetv %textColor.2;
+        symbol [ textColor %tmp.127 111 34 43 ];
+        invoke %tmp.125 %tmp.126(%tmp.127);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 112 16 ]
+        %tmp.128 = lgetv %valuePwr.8;
+        symbol [ valuePwr %tmp.128 112 16 24 ];
+        %tmp.129 = as %tmp.128 { (!Null) };
+        symbol [ setText %tmp.130 112 25 32 ];
+        %tmp.130 = getv function %tmp.129 :setText;
+        symbol [ mPower %tmp.132 112 33 39 ];
+        %tmp.132 = getv ? :mPower;
+        symbol [ toString %tmp.133 112 40 48 ];
+        %tmp.133 = getv function %tmp.132 :toString;
+        %tmp.134 = invoke %tmp.132 %tmp.133();
+        invoke %tmp.129 %tmp.130(%tmp.134);
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_110_34_113_12_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_110_12_113_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_110_12_113_12_if_end:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_61_114_8_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_8_114_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_85_8_114_8_if_end:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 117 8 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_117_8_133_8_if_stmt:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_118_12_120_28_begin:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_118_12_119_28_begin:
+        symbol [ mLayoutMode %tmp.136 118 12 23 ];
+        %tmp.136 = getv ? :mLayoutMode;
+        %tmp.138 = const :power;
+        symbol [ power %tmp.138 118 28 33 const ];
+        %tmp.139 = eq %tmp.136 %tmp.138;
+        bt %tmp.139 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_117_8_133_8_if_true;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_119_12_119_28_false:
+        symbol [ mLayoutMode %tmp.141 119 12 23 ];
+        %tmp.141 = getv ? :mLayoutMode;
+        %tmp.143 = const :speed;
+        symbol [ speed %tmp.143 119 28 33 const ];
+        %tmp.144 = eq %tmp.141 %tmp.143;
+        push %tmp.144;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_119_12_119_28_end:
+        %tmp.145 = phi [%tmp.139 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_118_12_119_28_begin] [%tmp.144 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_119_12_119_28_false] [%tmp.145 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_119_12_119_28_end];
+        bt %tmp.145 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_117_8_133_8_if_true;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_120_12_120_28_false:
+        symbol [ mLayoutMode %tmp.147 120 12 23 ];
+        %tmp.147 = getv ? :mLayoutMode;
+        %tmp.149 = const :heartRate;
+        symbol [ heartRate %tmp.149 120 28 37 const ];
+        %tmp.150 = eq %tmp.147 %tmp.149;
+        push %tmp.150;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_120_12_120_28_end:
+        %tmp.151 = phi [%tmp.145 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_118_12_120_28_begin] [%tmp.150 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_120_12_120_28_false] [%tmp.151 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_120_12_120_28_end];
+        bf %tmp.151 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_117_8_133_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_117_8_133_8_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_121_10_133_8_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 122 12 ]
+        [ "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_121_10_133_8_start" "_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_121_10_133_8_stop" ]
+        %value.9 = local;
+        symbol [ value %value.9 122 16 21 ];
+        symbol [ View %tmp.153 122 24 28 ];
+        %tmp.153 = getv ? :View;
+        symbol [ findDrawableById %tmp.154 122 29 45 ];
+        %tmp.154 = getv function %tmp.153 :findDrawableById;
+        %tmp.155 = "value";
+        %tmp.156 = invoke %tmp.153 %tmp.154(%tmp.155);
+        %tmp.157 = as %tmp.156 Text or Null;
+        symbol [ Text %tmp.157 122 58 62 ];
+        lputv %value.9 %tmp.157;
+        symbol [ value %value.9 122 16 21 ];
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 123 12 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_123_12_132_12_if_stmt:
+        %tmp.158 = lgetv %value.9;
+        symbol [ value %tmp.158 123 16 21 ];
+        %tmp.159 = null;
+        %tmp.160 = ne %tmp.158 %tmp.159;
+        bf %tmp.160 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_123_12_132_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_123_12_132_12_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_123_31_132_12_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 124 16 ]
+        %tmp.161 = lgetv %value.9;
+        symbol [ value %tmp.161 124 16 21 ];
+        %tmp.162 = as %tmp.161 { (!Null) };
+        symbol [ setColor %tmp.163 124 22 30 ];
+        %tmp.163 = getv function %tmp.162 :setColor;
+        %tmp.164 = lgetv %textColor.2;
+        symbol [ textColor %tmp.164 124 31 40 ];
+        invoke %tmp.162 %tmp.163(%tmp.164);
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 125 16 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_125_16_131_16_if_stmt:
+        symbol [ mLayoutMode %tmp.166 125 20 31 ];
+        %tmp.166 = getv ? :mLayoutMode;
+        %tmp.168 = const :power;
+        symbol [ power %tmp.168 125 36 41 const ];
+        %tmp.169 = eq %tmp.166 %tmp.168;
+        bf %tmp.169 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_125_16_131_16_if_false;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_125_16_131_16_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_125_43_127_16_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 126 20 ]
+        %tmp.170 = lgetv %value.9;
+        symbol [ value %tmp.170 126 20 25 ];
+        %tmp.171 = as %tmp.170 { (!Null) };
+        symbol [ setText %tmp.172 126 26 33 ];
+        %tmp.172 = getv function %tmp.171 :setText;
+        symbol [ mPower %tmp.174 126 34 40 ];
+        %tmp.174 = getv ? :mPower;
+        symbol [ toString %tmp.175 126 41 49 ];
+        %tmp.175 = getv function %tmp.174 :toString;
+        %tmp.176 = invoke %tmp.174 %tmp.175();
+        invoke %tmp.171 %tmp.172(%tmp.176);
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_125_43_127_16_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_125_16_131_16_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_125_16_131_16_if_false:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 127 23 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_127_23_131_16_if_stmt:
+        symbol [ mLayoutMode %tmp.178 127 27 38 ];
+        %tmp.178 = getv ? :mLayoutMode;
+        %tmp.180 = const :speed;
+        symbol [ speed %tmp.180 127 43 48 const ];
+        %tmp.181 = eq %tmp.178 %tmp.180;
+        bf %tmp.181 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_127_23_131_16_if_false;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_127_23_131_16_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_127_50_129_16_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 128 20 ]
+        %tmp.182 = lgetv %value.9;
+        symbol [ value %tmp.182 128 20 25 ];
+        %tmp.183 = as %tmp.182 { (!Null) };
+        symbol [ setText %tmp.184 128 26 33 ];
+        %tmp.184 = getv function %tmp.183 :setText;
+        symbol [ mSpeed %tmp.186 128 34 40 ];
+        %tmp.186 = getv ? :mSpeed;
+        symbol [ format %tmp.187 128 41 47 ];
+        %tmp.187 = getv function %tmp.186 :format;
+        %tmp.188 = "%.1f";
+        %tmp.189 = invoke %tmp.186 %tmp.187(%tmp.188);
+        invoke %tmp.183 %tmp.184(%tmp.189);
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_127_50_129_16_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_127_23_131_16_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_127_23_131_16_if_false:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 129 23 ]
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_129_23_131_16_if_stmt:
+        symbol [ mLayoutMode %tmp.191 129 27 38 ];
+        %tmp.191 = getv ? :mLayoutMode;
+        %tmp.193 = const :heartRate;
+        symbol [ heartRate %tmp.193 129 43 52 const ];
+        %tmp.194 = eq %tmp.191 %tmp.193;
+        bf %tmp.194 @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_129_23_131_16_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_129_23_131_16_if_true:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_129_54_131_16_start:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 130 20 ]
+        %tmp.195 = lgetv %value.9;
+        symbol [ value %tmp.195 130 20 25 ];
+        %tmp.196 = as %tmp.195 { (!Null) };
+        symbol [ setText %tmp.197 130 26 33 ];
+        %tmp.197 = getv function %tmp.196 :setText;
+        symbol [ mHeartRate %tmp.199 130 34 44 ];
+        %tmp.199 = getv ? :mHeartRate;
+        symbol [ toString %tmp.200 130 45 53 ];
+        %tmp.200 = getv function %tmp.199 :toString;
+        %tmp.201 = invoke %tmp.199 %tmp.200();
+        invoke %tmp.196 %tmp.197(%tmp.201);
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_129_54_131_16_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_129_23_131_16_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_129_23_131_16_if_end:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_127_23_131_16_if_end:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_125_16_131_16_if_end:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_123_31_132_12_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_123_12_132_12_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_123_12_132_12_if_end:
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_121_10_133_8_stop:
+        goto @_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_117_8_133_8_if_end;
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_117_8_133_8_if_end:
+[ "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" 135 8 ]
+        symbol [ View %tmp.203 135 8 12 ];
+        %tmp.203 = getv ? :View;
+        symbol [ onUpdate %tmp.204 135 13 21 ];
+        %tmp.204 = getv function %tmp.203 :onUpdate;
+        %tmp.205 = lgetv %dc;
+        symbol [ dc %tmp.205 135 22 24 ];
+        invoke %tmp.203 %tmp.204(%tmp.205);
+_Users_tanpengsccd_Proj_ConnectIQ_datasin1_source_datasin1View_mc_75_40_136_4_stop:
+    }
+}
+[ @file = "/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc"; @line = 1; ]
+<init> {
+}

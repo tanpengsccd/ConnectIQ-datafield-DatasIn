@@ -1,0 +1,7 @@
+{
+    "monkeyc.sdkPath": "/Users/tanpengsccd/Library/Application Support/Garmin/ConnectIQ/Sdks",
+    "monkeyc.privateKeyPath": "${workspaceFolder}/developer_key",
+    "cSpell.words": [
+        "datasin"
+    ]
+}

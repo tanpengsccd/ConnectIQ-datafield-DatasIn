@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1App.mc" id="1" lineNum="5" parent="globals/datasin1App" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1App.mc" id="2" lineNum="26" parent="globals" pc="268435479" symbol="getApp"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1App.mc" id="2" lineNum="27" parent="globals" pc="268435489" symbol="getApp"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1Background.mc" id="3" lineNum="5" parent="globals/Background" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435524" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="5" lineNum="6" parent="globals/datasin1View" pc="268435548" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1App.mc" id="6" lineNum="12" parent="globals/datasin1App" pc="268435567" symbol="onStart"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1App.mc" id="7" lineNum="20" parent="globals/datasin1App" pc="268435570" symbol="getInitialView"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1App.mc" id="7" lineNum="21" parent="globals/datasin1App" pc="268435572" symbol="getInitialView"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1App.mc" id="8" lineNum="7" parent="globals/datasin1App" pc="268435609" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1App.mc" id="8" lineNum="8" parent="globals/datasin1App" pc="268435611" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1App.mc" id="9" lineNum="16" parent="globals/datasin1App" pc="268435630" symbol="onStop"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1Background.mc" id="10" lineNum="19" parent="globals/Background" pc="268435633" symbol="setColor"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1Background.mc" id="10" lineNum="20" parent="globals/Background" pc="268435635" symbol="setColor"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1Background.mc" id="11" lineNum="9" parent="globals/Background" pc="268435646" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1Background.mc" id="11" lineNum="10" parent="globals/Background" pc="268435650" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1Background.mc" id="11" lineNum="14" parent="globals/Background" pc="268435671" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1Background.mc" id="11" lineNum="16" parent="globals/Background" pc="268435691" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1Background.mc" id="12" lineNum="23" parent="globals/Background" pc="268435705" symbol="draw"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1Background.mc" id="12" lineNum="24" parent="globals/Background" pc="268435707" symbol="draw"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1Background.mc" id="12" lineNum="25" parent="globals/Background" pc="268435732" symbol="draw"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="13" lineNum="51" parent="globals/datasin1View" pc="268435745" symbol="compute"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="13" lineNum="53" parent="globals/datasin1View" pc="268435747" symbol="compute"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="13" lineNum="54" parent="globals/datasin1View" pc="268435758" symbol="compute"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="13" lineNum="59" parent="globals/datasin1View" pc="268435798" symbol="compute"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="13" lineNum="60" parent="globals/datasin1View" pc="268435809" symbol="compute"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="13" lineNum="67" parent="globals/datasin1View" pc="268435855" symbol="compute"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="13" lineNum="68" parent="globals/datasin1View" pc="268435866" symbol="compute"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="21" parent="globals/datasin1View" pc="268435907" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="23" parent="globals/datasin1View" pc="268435911" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="26" parent="globals/datasin1View" pc="268435930" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="27" parent="globals/datasin1View" pc="268435941" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="28" parent="globals/datasin1View" pc="268435992" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="30" parent="globals/datasin1View" pc="268436008" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="31" parent="globals/datasin1View" pc="268436019" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="32" parent="globals/datasin1View" pc="268436070" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="33" parent="globals/datasin1View" pc="268436111" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="35" parent="globals/datasin1View" pc="268436127" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="36" parent="globals/datasin1View" pc="268436138" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="37" parent="globals/datasin1View" pc="268436189" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="38" parent="globals/datasin1View" pc="268436230" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="40" parent="globals/datasin1View" pc="268436246" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="41" parent="globals/datasin1View" pc="268436257" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="42" parent="globals/datasin1View" pc="268436308" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="43" parent="globals/datasin1View" pc="268436349" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="45" parent="globals/datasin1View" pc="268436365" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="46" parent="globals/datasin1View" pc="268436376" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="14" lineNum="47" parent="globals/datasin1View" pc="268436427" symbol="onLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="15" lineNum="12" parent="globals/datasin1View" pc="268436444" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="15" lineNum="13" parent="globals/datasin1View" pc="268436446" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="15" lineNum="14" parent="globals/datasin1View" pc="268436464" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="15" lineNum="15" parent="globals/datasin1View" pc="268436477" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="15" lineNum="16" parent="globals/datasin1View" pc="268436490" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="15" lineNum="17" parent="globals/datasin1View" pc="268436503" symbol="initialize"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="75" parent="globals/datasin1View" pc="268436517" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="76" parent="globals/datasin1View" pc="268436521" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="77" parent="globals/datasin1View" pc="268436534" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="79" parent="globals/datasin1View" pc="268436572" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="85" parent="globals/datasin1View" pc="268436598" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="86" parent="globals/datasin1View" pc="268436632" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="87" parent="globals/datasin1View" pc="268436660" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="88" parent="globals/datasin1View" pc="268436688" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="89" parent="globals/datasin1View" pc="268436716" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="90" parent="globals/datasin1View" pc="268436744" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="91" parent="globals/datasin1View" pc="268436772" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="93" parent="globals/datasin1View" pc="268436800" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="94" parent="globals/datasin1View" pc="268436807" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="96" parent="globals/datasin1View" pc="268436827" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="97" parent="globals/datasin1View" pc="268436834" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="98" parent="globals/datasin1View" pc="268436848" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="100" parent="globals/datasin1View" pc="268436880" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="101" parent="globals/datasin1View" pc="268436887" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="103" parent="globals/datasin1View" pc="268436907" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="104" parent="globals/datasin1View" pc="268436914" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="105" parent="globals/datasin1View" pc="268436928" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="107" parent="globals/datasin1View" pc="268436965" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="108" parent="globals/datasin1View" pc="268436972" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="110" parent="globals/datasin1View" pc="268436992" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="111" parent="globals/datasin1View" pc="268436999" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="112" parent="globals/datasin1View" pc="268437013" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="117" parent="globals/datasin1View" pc="268437048" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="122" parent="globals/datasin1View" pc="268437099" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="123" parent="globals/datasin1View" pc="268437127" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="124" parent="globals/datasin1View" pc="268437134" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="125" parent="globals/datasin1View" pc="268437148" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="126" parent="globals/datasin1View" pc="268437165" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="127" parent="globals/datasin1View" pc="268437197" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="128" parent="globals/datasin1View" pc="268437214" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="129" parent="globals/datasin1View" pc="268437251" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="130" parent="globals/datasin1View" pc="268437268" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/source/datasin1View.mc" id="16" lineNum="135" parent="globals/datasin1View" pc="268437306" symbol="onUpdate"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="17" lineNum="63" parent="globals/Rez/Layouts" pc="268437331" symbol="BottomRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="17" lineNum="64" parent="globals/Rez/Layouts" pc="268437343" symbol="BottomRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="17" lineNum="66" parent="globals/Rez/Layouts" pc="268437371" symbol="BottomRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="17" lineNum="68" parent="globals/Rez/Layouts" pc="268437483" symbol="BottomRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="17" lineNum="70" parent="globals/Rez/Layouts" pc="268437595" symbol="BottomRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="17" lineNum="72" parent="globals/Rez/Layouts" pc="268437707" symbol="BottomRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="17" lineNum="74" parent="globals/Rez/Layouts" pc="268437819" symbol="BottomRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="17" lineNum="76" parent="globals/Rez/Layouts" pc="268437931" symbol="BottomRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="17" lineNum="78" parent="globals/Rez/Layouts" pc="268438043" symbol="BottomRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="18" lineNum="43" parent="globals/Rez/Layouts" pc="268438120" symbol="TopRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="18" lineNum="44" parent="globals/Rez/Layouts" pc="268438132" symbol="TopRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="18" lineNum="46" parent="globals/Rez/Layouts" pc="268438160" symbol="TopRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="18" lineNum="48" parent="globals/Rez/Layouts" pc="268438272" symbol="TopRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="18" lineNum="50" parent="globals/Rez/Layouts" pc="268438384" symbol="TopRightLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="19" lineNum="53" parent="globals/Rez/Layouts" pc="268438421" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="19" lineNum="54" parent="globals/Rez/Layouts" pc="268438433" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="19" lineNum="56" parent="globals/Rez/Layouts" pc="268438461" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="19" lineNum="58" parent="globals/Rez/Layouts" pc="268438573" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="19" lineNum="60" parent="globals/Rez/Layouts" pc="268438685" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="20" lineNum="33" parent="globals/Rez/Layouts" pc="268438722" symbol="TopLeftLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="20" lineNum="34" parent="globals/Rez/Layouts" pc="268438734" symbol="TopLeftLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="20" lineNum="36" parent="globals/Rez/Layouts" pc="268438762" symbol="TopLeftLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="20" lineNum="38" parent="globals/Rez/Layouts" pc="268438874" symbol="TopLeftLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="20" lineNum="40" parent="globals/Rez/Layouts" pc="268438986" symbol="TopLeftLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="21" lineNum="13" parent="globals/Rez/Layouts" pc="268439023" symbol="MainLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="21" lineNum="14" parent="globals/Rez/Layouts" pc="268439035" symbol="MainLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="21" lineNum="16" parent="globals/Rez/Layouts" pc="268439048" symbol="MainLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="21" lineNum="18" parent="globals/Rez/Layouts" pc="268439076" symbol="MainLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="21" lineNum="20" parent="globals/Rez/Layouts" pc="268439191" symbol="MainLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="21" lineNum="22" parent="globals/Rez/Layouts" pc="268439306" symbol="MainLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="21" lineNum="24" parent="globals/Rez/Layouts" pc="268439421" symbol="MainLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="21" lineNum="26" parent="globals/Rez/Layouts" pc="268439536" symbol="MainLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="21" lineNum="28" parent="globals/Rez/Layouts" pc="268439651" symbol="MainLayout"/>
+        <entry filename="/Users/tanpengsccd/Proj/ConnectIQ/datasin1/bin/gen/006-B2713-00/source/Rez.mcgen" id="21" lineNum="30" parent="globals/Rez/Layouts" pc="268439766" symbol="MainLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="9" symbol="mHeartRate"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="16" method="true" symbol="MainLayout"/>
+        <entry field="true" id="10" symbol="mLayoutMode"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="19" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="8389138" symbol="label"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8388738" symbol="currentSpeed"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="20" symbol="full"/>
+        <entry field="true" id="8388742" symbol="currentPower"/>
+        <entry id="8389131" method="true" symbol="setColor"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="17" method="true" symbol="TopLeftLayout"/>
+        <entry field="true" id="12" symbol="mSpeed"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="11" symbol="mPower"/>
+        <entry id="14" method="true" symbol="BottomLeftLayout"/>
+        <entry id="15" method="true" symbol="BottomRightLayout"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="21" symbol="compact"/>
+        <entry field="true" id="8389130" symbol="mColor"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="6" object="true" symbol="datasin1App"/>
+        <entry field="true" id="8388958" symbol="speed"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry field="true" id="8388960" symbol="heartRate"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="8388961" symbol="power"/>
+        <entry field="true" id="8388747" symbol="currentHeartRate"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="7" object="true" symbol="datasin1View"/>
+        <entry id="8" module="true" symbol="Layouts"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="18" method="true" symbol="TopRightLayout"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435645" name="color" stackId="1" startPc="268435633"/>
+        <entry endPc="268435703" name="dictionary" stackId="1" startPc="268435650"/>
+        <entry arg="true" endPc="268435744" name="dc" stackId="1" startPc="268435705"/>
+        <entry arg="true" endPc="268435906" name="info" stackId="1" startPc="268435745"/>
+        <entry arg="true" endPc="268436443" name="dc" stackId="1" startPc="268435907"/>
+        <entry endPc="268436442" name="obscurityFlags" stackId="2" startPc="268435911"/>
+        <entry arg="true" endPc="268437330" name="dc" stackId="1" startPc="268436517"/>
+        <entry endPc="268437329" name="bgColor" stackId="2" startPc="268436521"/>
+        <entry endPc="268437329" name="textColor" stackId="3" startPc="268436521"/>
+        <entry endPc="268437044" name="labelHr" stackId="4" startPc="268436632"/>
+        <entry endPc="268437044" name="valueHr" stackId="5" startPc="268436632"/>
+        <entry endPc="268437044" name="labelSpd" stackId="6" startPc="268436632"/>
+        <entry endPc="268437044" name="valueSpd" stackId="7" startPc="268436632"/>
+        <entry endPc="268437044" name="labelPwr" stackId="8" startPc="268436632"/>
+        <entry endPc="268437044" name="valuePwr" stackId="9" startPc="268436632"/>
+        <entry endPc="268437302" name="value" stackId="10" startPc="268437099"/>
+        <entry arg="true" endPc="268438119" name="dc" stackId="1" startPc="268437331"/>
+        <entry endPc="268438119" name="rez_cmp_local_custom_drawable_16187860511068497434" stackId="2" startPc="268437343"/>
+        <entry endPc="268438119" name="rez_cmp_local_text_labelHr" stackId="3" startPc="268437343"/>
+        <entry endPc="268438119" name="rez_cmp_local_text_valueHr" stackId="4" startPc="268437343"/>
+        <entry endPc="268438119" name="rez_cmp_local_text_labelSpd" stackId="5" startPc="268437343"/>
+        <entry endPc="268438119" name="rez_cmp_local_text_valueSpd" stackId="6" startPc="268437343"/>
+        <entry endPc="268438119" name="rez_cmp_local_text_labelPwr" stackId="7" startPc="268437343"/>
+        <entry endPc="268438119" name="rez_cmp_local_text_valuePwr" stackId="8" startPc="268437343"/>
+        <entry arg="true" endPc="268438420" name="dc" stackId="1" startPc="268438120"/>
+        <entry endPc="268438420" name="rez_cmp_local_custom_drawable_11824933295158922413" stackId="2" startPc="268438132"/>
+        <entry endPc="268438420" name="rez_cmp_local_text_label" stackId="3" startPc="268438132"/>
+        <entry endPc="268438420" name="rez_cmp_local_text_value" stackId="4" startPc="268438132"/>
+        <entry arg="true" endPc="268438721" name="dc" stackId="1" startPc="268438421"/>
+        <entry endPc="268438721" name="rez_cmp_local_custom_drawable_16380678501279751870" stackId="2" startPc="268438433"/>
+        <entry endPc="268438721" name="rez_cmp_local_text_label" stackId="3" startPc="268438433"/>
+        <entry endPc="268438721" name="rez_cmp_local_text_value" stackId="4" startPc="268438433"/>
+        <entry arg="true" endPc="268439022" name="dc" stackId="1" startPc="268438722"/>
+        <entry endPc="268439022" name="rez_cmp_local_custom_drawable_83741574912206153191" stackId="2" startPc="268438734"/>
+        <entry endPc="268439022" name="rez_cmp_local_text_label" stackId="3" startPc="268438734"/>
+        <entry endPc="268439022" name="rez_cmp_local_text_value" stackId="4" startPc="268438734"/>
+        <entry arg="true" endPc="268439842" name="dc" stackId="1" startPc="268439023"/>
+        <entry endPc="268439842" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439035"/>
+        <entry endPc="268439842" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="3" startPc="268439035"/>
+        <entry endPc="268439842" name="rez_cmp_local_text_labelHr" stackId="4" startPc="268439035"/>
+        <entry endPc="268439842" name="rez_cmp_local_text_valueHr" stackId="5" startPc="268439035"/>
+        <entry endPc="268439842" name="rez_cmp_local_text_labelSpd" stackId="6" startPc="268439035"/>
+        <entry endPc="268439842" name="rez_cmp_local_text_valueSpd" stackId="7" startPc="268439035"/>
+        <entry endPc="268439842" name="rez_cmp_local_text_labelPwr" stackId="8" startPc="268439035"/>
+        <entry endPc="268439842" name="rez_cmp_local_text_valuePwr" stackId="9" startPc="268439035"/>
+    </localVars>
+    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B2713-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="label"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/datasin1App" offset="142" parentId="globals" symbolId="datasin1App" type="class"/>
+        <dataEntry label="globals/Background" offset="213" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="284" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/datasin1View" offset="339" parentId="globals" symbolId="datasin1View" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="442" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="481" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="552" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="datasin1App" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435523" name="&lt;init&gt;" parent="Background" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="Rez" startPc="268435524">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435566" name="&lt;init&gt;" parent="datasin1View" startPc="268435548">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435569" name="onStart" parent="datasin1App" startPc="268435567">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435608" name="getInitialView" parent="datasin1App" startPc="268435570">
+            <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435629" name="initialize" parent="datasin1App" startPc="268435609">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435632" name="onStop" parent="datasin1App" startPc="268435630">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435645" name="setColor" parent="Background" startPc="268435633">
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435704" name="initialize" parent="Background" startPc="268435646">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435744" name="draw" parent="Background" startPc="268435705">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435906" name="compute" parent="datasin1View" startPc="268435745">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436443" name="onLayout" parent="datasin1View" startPc="268435907">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436516" name="initialize" parent="datasin1View" startPc="268436444">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437330" name="onUpdate" parent="datasin1View" startPc="268436517">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438119" name="BottomRightLayout" parent="Layouts" startPc="268437331">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438420" name="TopRightLayout" parent="Layouts" startPc="268438120">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438721" name="BottomLeftLayout" parent="Layouts" startPc="268438421">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439022" name="TopLeftLayout" parent="Layouts" startPc="268438722">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439842" name="MainLayout" parent="Layouts" startPc="268439023">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
